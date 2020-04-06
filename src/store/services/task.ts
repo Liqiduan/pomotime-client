@@ -6,14 +6,6 @@ class Task extends BaseModel {
   }
 
   static modelName = 'Task'
-  static instanceDefaults() {
-    return {
-      title: 'New Task',
-      description: '',
-      done: 0,
-      estimate: 4
-    }
-  }
 }
 
 const servicePath = 'task'
