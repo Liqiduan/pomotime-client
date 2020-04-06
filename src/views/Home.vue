@@ -34,19 +34,19 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld />
+      <Todolist />
     </v-content>
   </v-app>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Todolist from "@/components/Todolist"
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    Todolist
   }
 };
 </script>
